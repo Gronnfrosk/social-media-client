@@ -1,7 +1,8 @@
 {
     "env": {
         "browser": true,
-        "es2021": true
+        "es2021": true,
+        "node": true
     },
     "extends": "eslint:recommended",
     "overrides": [
@@ -45,5 +46,8 @@
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "rules": {}
+    "rules": {
+        "cypress/no-unnecessary-waiting": "off",
+        "no-unused-vars": "error"
+    }
 }
