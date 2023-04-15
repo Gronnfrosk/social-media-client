@@ -11,7 +11,7 @@ jobs:
      
     steps: 
     - name: Check files
-      run: ls
+      run: "ls"
     
     - name: Checkout github actions
       uses: actions/checkout@master
