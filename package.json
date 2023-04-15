@@ -3,7 +3,6 @@
   "version": "1.0.4",
   "description": "Test",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "npm run test-unit",
     "test-e2e": "cypress open",

@@ -2,3 +2,4 @@
 .DS_Store
 /dist
 .eslintcache
+cypress.env.js
