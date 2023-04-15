@@ -1,6 +1,6 @@
-import { localStorageMock } from "./mock.js";
-import { logout } from "../logout.js";
-import { load, save } from "../../../storage/index.js";
+import { localStorageMock } from "./test/mock.js";
+import { logout } from "./logout.js";
+import { load, save } from "../../storage/index.js";
 
 global.localStorage = new localStorageMock();
 
