@@ -1,4 +1,4 @@
-name: Automated Jest testing
+name: Unit testing
 
 on:
 - workflow_dispatch
@@ -6,18 +6,13 @@ on:
 
 jobs: 
   run-unit-test: 
-    name: Run Unit Tests
     runs-on: ubuntu-latest
-    
     steps: 
     - name: Checkout github actions
       uses: actions/checkout@master
     
-    - name: Set up NodeJS
-      uses: actions/setup-node@v1
-    
-    - name: Install the dependencies
+    - name: Install dependencies
       run: npm install
     
-    - name: Run the unit tests
+    - name: Run unit tests
       run: npm run test-unit
