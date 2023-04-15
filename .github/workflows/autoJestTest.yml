@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     
     steps: 
+     - run: ls
+    
     - name: Checkout github actions
       uses: actions/checkout@master
     
