@@ -1,0 +1,19 @@
+name: Automated End to End (Cypress) Testing
+on:
+  - pull_request
+  - workflow_dispatch
+  
+jobs: 
+  cypress-run:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Checkout under $GITHUB_WORKSPACE
+        uses: actions/checkout@v3
+
+      - name: Create cypress.env file
+        run: echo '${{ secrets.CYPRESS_ENV }}' > cypress.env.js
+      
+      - name: Cypress.io
+        uses: cypress-io/github-action@v5
+        with:
+         browser: electron
