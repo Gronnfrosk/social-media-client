@@ -12,6 +12,9 @@ jobs:
     steps: 
     - name: Checkout github actions
       uses: actions/checkout@master
+      
+    - name: Set up NodeJS
+      uses: actions/setup-node@v1
     
     - name: Install the dependencies
       run: npm install
