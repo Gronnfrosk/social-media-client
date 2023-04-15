@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps: 
+     - name: Check files
      - run: ls
     
     - name: Checkout github actions
