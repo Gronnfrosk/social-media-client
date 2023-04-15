@@ -1,0 +1,3 @@
+[![Deploy static content to Pages](https://github.com/Gronnfrosk/social-media-client/actions/workflows/pages.yml/badge.svg)](https://github.com/Gronnfrosk/social-media-client/actions/workflows/pages.yml)
+[![Unit testing](https://github.com/Gronnfrosk/social-media-client/actions/workflows/autoJestTest.yml/badge.svg)](https://github.com/Gronnfrosk/social-media-client/actions/workflows/autoJestTest.yml)
+[![Automated End to End (Cypress) Testing](https://github.com/Gronnfrosk/social-media-client/actions/workflows/autoCypressTest.yml/badge.svg)](https://github.com/Gronnfrosk/social-media-client/actions/workflows/autoCypressTest.yml)
